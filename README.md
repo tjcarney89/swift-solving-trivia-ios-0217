@@ -10,7 +10,7 @@ Open the `swift-solving-trivia.xcworkspace` and navigate to the `AppDelegate.swi
 
 Declare a function named `solveTrivia(_:)` that takes one argument, a dictionary containing key-value pairs of strings, and returns a string. Write its implementation so that it returns a string containing the answer to the following trivia question:
 
-**What is the only state whose capital contains none of the characters as the state name?**  
+**What is the only state whose capital contains none of the same characters as the state name?**  
 Example: Alaska is not the answer because Juneau and Alaska both contain an A.
 
 ##### Hints:
@@ -18,3 +18,5 @@ Example: Alaska is not the answer because Juneau and Alaska both contain an A.
 *Does your comparison need to be case insensitive?*
 
 <a href='https://learn.co/lessons/swift-solving-trivia' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-solving-trivia'>Solving Trivia Lab</a> on Learn.co and start learning to code for free.</p>
