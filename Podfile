@@ -8,8 +8,9 @@ target 'swift-solving-trivia' do
   # Pods for swift-solving-trivia
 
   def testing_pods
-    pod 'Quick'
-    pod 'Nimble'
+
+    pod 'Nimble', git: 'https://github.com/Quick/Nimble.git'
+    pod 'Quick', git: 'https://github.com/Quick/Quick.git'
   end
 
   target 'swift-solving-triviaTests' do
@@ -18,4 +19,12 @@ target 'swift-solving-trivia' do
     # Pods for testing
   end
 
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
 end

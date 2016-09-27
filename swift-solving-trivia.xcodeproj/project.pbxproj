@@ -147,12 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DF0B9E41D2FF1790025B967 /* Build configuration list for PBXNativeTarget "swift-solving-trivia" */;
 			buildPhases = (
-				F88EAF1355BFD64ADCF8947A /* 📦 Check Pods Manifest.lock */,
+				F88EAF1355BFD64ADCF8947A /* [CP] Check Pods Manifest.lock */,
 				5DF0B9C31D2FF1790025B967 /* Sources */,
 				5DF0B9C41D2FF1790025B967 /* Frameworks */,
 				5DF0B9C51D2FF1790025B967 /* Resources */,
-				B82D7B95DFB9C3BB29E9FD6B /* 📦 Embed Pods Frameworks */,
-				A8775E23E5FED345C7BF9603 /* 📦 Copy Pods Resources */,
+				B82D7B95DFB9C3BB29E9FD6B /* [CP] Embed Pods Frameworks */,
+				A8775E23E5FED345C7BF9603 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DF0B9E71D2FF1790025B967 /* Build configuration list for PBXNativeTarget "swift-solving-triviaTests" */;
 			buildPhases = (
-				6C523F2F812B3DE0AA16907D /* 📦 Check Pods Manifest.lock */,
+				6C523F2F812B3DE0AA16907D /* [CP] Check Pods Manifest.lock */,
 				5DF0B9D71D2FF1790025B967 /* Sources */,
 				5DF0B9D81D2FF1790025B967 /* Frameworks */,
 				5DF0B9D91D2FF1790025B967 /* Resources */,
-				4D62B2F3ECF4CBC4E44D90DC /* 📦 Embed Pods Frameworks */,
-				61DE34D912A04F339F51B2FB /* 📦 Copy Pods Resources */,
+				4D62B2F3ECF4CBC4E44D90DC /* [CP] Embed Pods Frameworks */,
+				61DE34D912A04F339F51B2FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +196,11 @@
 				TargetAttributes = {
 					5DF0B9C61D2FF1790025B967 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5DF0B9DA1D2FF1790025B967 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5DF0B9C61D2FF1790025B967;
 					};
 				};
@@ -243,14 +245,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D62B2F3ECF4CBC4E44D90DC /* 📦 Embed Pods Frameworks */ = {
+		4D62B2F3ECF4CBC4E44D90DC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,14 +260,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-solving-triviaTests/Pods-swift-solving-triviaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61DE34D912A04F339F51B2FB /* 📦 Copy Pods Resources */ = {
+		61DE34D912A04F339F51B2FB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,14 +275,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-solving-triviaTests/Pods-swift-solving-triviaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C523F2F812B3DE0AA16907D /* 📦 Check Pods Manifest.lock */ = {
+		6C523F2F812B3DE0AA16907D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,14 +290,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A8775E23E5FED345C7BF9603 /* 📦 Copy Pods Resources */ = {
+		A8775E23E5FED345C7BF9603 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +305,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-solving-trivia/Pods-swift-solving-trivia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B82D7B95DFB9C3BB29E9FD6B /* 📦 Embed Pods Frameworks */ = {
+		B82D7B95DFB9C3BB29E9FD6B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,14 +320,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-solving-trivia/Pods-swift-solving-trivia-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F88EAF1355BFD64ADCF8947A /* 📦 Check Pods Manifest.lock */ = {
+		F88EAF1355BFD64ADCF8947A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.swift-solving-trivia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -490,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.swift-solving-trivia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -502,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.swift-solving-triviaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-solving-trivia.app/swift-solving-trivia";
 			};
 			name = Debug;
@@ -515,6 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.swift-solving-triviaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-solving-trivia.app/swift-solving-trivia";
 			};
 			name = Release;

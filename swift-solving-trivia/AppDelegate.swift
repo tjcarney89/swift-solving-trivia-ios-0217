@@ -12,11 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
-    /*
-     
-     write your function here
-     
-     */
-
+    
+    
+    func solveTrivia(_ trivia: [String : String]) -> String {
+        
+        // Implement this function!
+        
+        return "Hi :D"
+        
+    }
+    
+    
+    
+    
 }
 
