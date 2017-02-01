@@ -15,11 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func solveTrivia(_ trivia: [String : String]) -> String {
+        var state = ""
+        for (key, value) in trivia {
+            var keyLetters = Set(key.lowercased().characters)
+            var valueLetters = value.lowercased().characters
+            var commonLetters = keyLetters.intersection(valueLetters)
+            if commonLetters.isEmpty {
+                state = key
+            }
+        }
         
-        // Implement this function!
+        return state
         
-        return "Hi :D"
-        
+
     }
     
     
